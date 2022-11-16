@@ -3146,6 +3146,7 @@ input, select, textarea {
 
 			.spotlights section:first-child {
 				margin-top: 0;
+				margin-bottom: 10rem;
 			}
 
 			.spotlights section:nth-child(2n) {
