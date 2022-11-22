@@ -3146,7 +3146,7 @@ input, select, textarea {
 
 			.spotlights section:first-child {
 				margin-top: 0;
-				margin-bottom: 10rem;
+				margin-bottom: 5rem;
 			}
 
 			.spotlights section:nth-child(2n) {
@@ -4313,4 +4313,40 @@ input, select, textarea {
 		font: inherit;
 		font-size: 1.5rem;
 		/* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	}
+
+	.profiles {
+		display: flex;
+		align-items: stretch;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+	.profiles .profile .image {
+    	border-radius: 100%;
+    	border: 1px solid #4468ca;
+    	padding: 0.75rem;
+    	margin-bottom: 2rem;
+	}
+	
+	.profiles .profile {
+		text-align: center;
+		margin-right: 1rem;
+	}
+
+	@media screen and (min-width: 981px) and (max-width: 1280px)
+	.profiles > * {
+    	padding: 1rem;
+    	width: 33.33333%;
+	}
+
+	.profiles > * {
+		flex-shrink: 1;
+		flex-grow: 0;
+	}
+
+	.profiles .profile .image img {
+		border-radius: 100%;
+		height: 12rem;
+		width: 12rem
 	}
