@@ -1,5 +1,9 @@
 <!DOCTYPE HTML>
-
+<!--
+	Hyperbolic by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
 <html>
 	<head>
 		<title>Robert M. Langer Symposium</title>
@@ -32,10 +36,10 @@
 								<ul>
 									<li class="current"><a href="index.html">Home</a></li>
 									<li><a href="#first">About</a></li>
-									<li><a href="#">Schedule</a></li>
+									<li><a href="#schedule">Schedule</a></li>
 									<li><a href="#second">Keynote Speakers</a></li>
-									<li><a href="#">Student Speakers</a></li>
-									<li><a href="#">Venue</a></li>
+									<li><a href="#students">Student Speakers</a></li>
+									<li><a href="#venue">Venue</a></li>
 									<li><a href="#committee">Committee</a></li>
 									<!-- <li>
 										<a href="#" class="icon solid fa-angle-down">Dropdown</a>
@@ -54,8 +58,8 @@
 											</li>
 										</ul>
 									</li> -->
-									<li><a href="generic.html">Generic</a></li>
-									<li><a href="elements.html">Elements</a></li>
+									<!-- <li><a href="generic.html">Generic</a></li>
+									<li><a href="elements.html">Elements</a></li> -->
 								</ul>
 							</nav>
 
@@ -159,13 +163,17 @@
 					</section>
 
 				<!--Section-->
-					<section class="wrapper style1">
+					<section id="schedule" class="wrapper style1">
 						<div class="inner">
 							<header class="major special">
 								<h2>Schedule</h2>
 							</header>
 							<div class="table-wrapper">
 								<table>
+									<colgroup>
+										<col span="1" class="time">
+										<col span="1" class="session">
+									</colgroup>
 									<!-- <thead>
 										<tr>
 											<th>Time</th>
@@ -190,66 +198,136 @@
 										</tr>
 										<tr>
 											<td><i class="fa-regular fa-clock"></i> 11:30am - 12:30pm<br><i class="fa-solid fa-location-dot"></i>  Dining Room, Greenberg Conference Center</td>
-											<td> <em>Lunch</em></td>
+											<td><h4 class="linner">Lunch</h4></td>
 										</tr>
 										<tr>
-											<td>Four</td>
-											<td>Vitae integer tempus condimentum.</td>
+											<td><i class="fa-regular fa-clock"></i>  12:30pm - 1:55pm<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td>Graduate Student Speakers - Session 1</td>
 										</tr>
 										<tr>
-											<td>Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
+											<td><i class="fa-regular fa-clock"></i> 1:55pm - 2:10pm</td>
+											<td><em>Ventilation Break</em></td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  2:10pm - 3:10pm<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td><strong>Afternoon Keynote - Dr Mary Evelyn Tucker</strong>
+											<br>Co-Director, Forum on Religion and Ecology, Yale University
+											</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  3:10pm - 4:35pm<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td>Graduate Student Speakers - Session 2</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i> 4:35pm - 4:50pm</td>
+											<td><em>Ventilation Break</em></td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  4:50pm - 5:20pm<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td>Awards &amp; Closing Remarks</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i> 6:00pm - 8:30pm<br><i class="fa-solid fa-location-dot"></i>  Presidential Room, Schwarzman Center</td>
+											<td><h4 class="linner">Banquet</h4></td>
 										</tr>
 									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-										</tr>
-									</tfoot>
 								</table>
 							</div>
 						</div>
 					</section>
 
 				<!-- Section -->
-					<!-- <section class="wrapper style1">
+				<section class="wrapper style2 alt" id="students">
+					<div class="inner">
+						<header class="major special">
+							<h2>Student Speakers</h2>
+							<p>Hear some of the groundbreaking research being carried out by the Department of Chemical &amp; Environmental Engineering's very own graduate student researchers.</p>
+						</header>
+						<div class="grid">
+							<section class="col-1-3">
+								<div class="image">
+							  		<img src="images/DevanSolanki.jpg" alt="">
+								</div>
+								<div class="content">
+							  		<h3>Devan Solanki</h3>
+									<p>Biocement from the ocean:<br> Hybrid microbial-electrochemical <br>mineralization of CO<sub>2</sub></p>
+									<a href="generic.html#devan" class="button small">Details</a>
+								</div>
+							</section>
+							<section class="col-1-3">
+								<div class="image">
+							  		<img src="images/MaryKateLane.JPG" alt="">
+								</div>
+								<div class="content">
+							  		<h3>Mary Kate Lane</h3>
+									<p>What to Expect When Expecting in <br>Lab: Green Chemistry Resources<br> for Pregnant Researchers in <br>the Chemical Laboratory</p>
+									<a href="generic.html#marykate" class="button small">Details</a>
+								</div>
+							</section>
+							<section class="col-1-3">
+								<div class="image">
+							  		<img src="images/Aurora.JPG" alt="">
+								</div>
+								<div class="content">
+							  		<h3>Zhanhong Xiang</h3>
+									<p>Sooting tendencies of phenolic <br>hydrocarbons from lignin <br>conversion and upgrading</p>
+									<a href="generic.html#aurora" class="button small">Details</a>
+								</div>
+							</section>
+							<section class="col-1-3">
+								<div class="image">
+							  		<img src="images/RachelYang.jpeg" alt="">
+								</div>
+								<div class="content">
+							  		<h3>Ruiqi Yang</h3>
+									<p>High-temperature Super<br>conductivity in an induced-<br>pressure linked-graphene <br>oxide confinement system</p>
+									<a href="generic.html#rachel" class="button small">Details</a>
+								</div>
+							</section>
+							<section class="col-1-3">
+								<div class="image">
+							  		<img src="images/DavidKim.png" alt="">
+								</div>
+								<div class="content">
+							  		<h3>David Kim</h3>
+									<p>Pulsed electrolysis for long-term<br> water treatment</p>
+									<a href="generic.html#david" class="button small">Details</a>
+								</div>
+							</section>
+						</div>
+					</div>
+				</section>
+
+					<!--Section-->
+					<section id="venue" class="wrapper style1 venue">
 						<div class="inner">
 							<header class="major special">
-								<h2>Magna feugiat</h2>
-								<p>Praesent dapibus neque id cursus faucibus consequat<br />
-								magna consequat erat ipsum lorem</p>
+								<h2>Venue</h2>
+								<p>The symposium is held at the Greenberg Conference Center. The Banquet is hosted a short mile away in the President's Room, Schwarzman Center.</p>
 							</header>
-							<div class="features">
-								<ul>
-									<li>
-										<span class="icon alt major fa-gem"></span>
-										<h3>Erat lorem</h3>
-										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
-									</li>
-									<li>
-										<span class="icon alt major solid fa-laptop"></span>
-										<h3>Tempus nulla</h3>
-										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
-									</li>
-								</ul>
-								<span class="image"><img src="images/pic03.jpg" alt="" /></span>
-								<ul>
-									<li>
-										<span class="icon alt major fa-save"></span>
-										<h3>Nisl faucibus</h3>
-										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
-									</li>
-									<li>
-										<span class="icon alt major fa-paper-plane"></span>
-										<h3>Magna dolor</h3>
-										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
-									</li>
-								</ul>
-							</div>
+							<section class="venue-symposium grid">
+									<div class="col-1-3">
+									  <h3>Maurice R. Greenberg<br> Conference Center</h3>
+									  <p>391 Prospect Street<br>
+										New Haven, CT 06511</p>
+									  <p><a href="https://greenberg.yale.edu/">greenberg.yale.edu</a> <br> 203 436 5866 <br> greenberg.center@yale.edu </p>
+									</div><!--
+								
+									--><iframe class="venue-map col-2-3"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.3872535342725!2d-72.9240377846761!3d41.32219180799746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d9c084d9b445%3A0x5d743f41316b386a!2sMaurice%20R.%20Greenberg%20Conference%20Center!5e0!3m2!1sen!2sus!4v1669433674719!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</section>
+							<section class="venue-banquet grid">
+								<div class="col-1-3">
+								  <h3>President's Room <br>Schwarzman Center</h3>
+								  <p>168 Grove Street<br> New Haven, CT 06511</p>
+								  <p><a href="https://schwarzman.yale.edu/presidents-room">schwarzman.yale.edu</a> <br> 203 436 4000 </p>
+								</div><!--
+							
+								--><iframe class="venue-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.8748779314774!2d-72.9258874!3d41.31158549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d9b68f44da9b%3A0x1d2943af22503605!2sSchwarzman%20Center%2C%20Yale%20University!5e0!3m2!1sen!2sus!4v1669434958581!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</section>
 						</div>
-					</section> -->
+					</section>
 
-						<!-- Three -->
+			<!-- Section -->
 			<section id="committee" class="wrapper style1">
 				<div class="inner">
 					<header class="major special">
@@ -263,7 +341,7 @@
 							</div>
 							<header class="heading">
 								<h3>Rostacia Lewis</h3>
-								<p>PhD Chemical Engineering</p>
+								<p>PhD Candidate | Chemical Engineering</p>
 							</header>
 							<ul class="icons">
 								<li><a href="mailto:rostacia.lewis@yale.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
@@ -276,7 +354,7 @@
 							</div>
 							<header class="heading">
 								<h3>Seunghee Chae</h3>
-								<p>PhD Environmental Engineering</p>
+								<p>PhD Student | Environmental Engineering</p>
 							</header>
 							<ul class="icons">
 								<li><a href="mailto:seunghee.chae@yale.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
@@ -289,7 +367,7 @@
 							</div>
 							<header class="heading">
 								<h3>Arlind Kacirani</h3>
-								<p>PhD Chemical Engineering</p>
+								<p>PhD Student | Chemical Engineering</p>
 							</header>
 							<ul class="icons">
 								<li><a href="mailto:arlind.kacirani@yale.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
@@ -302,7 +380,7 @@
 							</div>
 							<header class="heading">
 								<h3>lauren mazurowski</h3>
-								<p>PhD Environmental Engineering</p>
+								<p>PhD Student | Environmental Engineering</p>
 							</header>
 							<ul class="icons">
 								<li><a href="mailto:lauren.mazurowski@yale.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
@@ -312,20 +390,6 @@
 				</div>
 			</section>
 					
-				<!-- Section -->
-					<!-- <section class="wrapper style1">
-						<div class="inner">
-							<header class="major special alt">
-								<h2>Nisl consequat</h2>
-								<p>Praesent dapibus neque id cursus faucibus consequat<br />
-								magna consequat erat ipsum lorem</p>
-							</header>
-							<ul class="actions special">
-								<li><a href="#" class="button primary wide">Get Started</a></li>
-							</ul>
-						</div>
-					</section> -->
-
 				<!-- Footer -->
 					<section id="footer">
 						<ul class="icons">
@@ -352,5 +416,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/countdown.js"></script>
+			<script src="assets/js/tablean.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	</body>
 </html>
