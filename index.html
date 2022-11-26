@@ -78,9 +78,32 @@
 							</ul> -->
 							<!-- Display the countdown timer in an element -->
 							<p>16TH DECEMBER 2022 | GREENBERG CONFERENCE CENTER</p>
-							<p id="countdown"></p>
-
-
+							<ul class="langer-countdown">
+								<li class="day">
+									<div class="text">
+										<div id="countdown-days"></div>
+										<span>Days</span>
+									</div>
+								</li>
+								<li class="hour">
+									<div class="text">
+										<div id="countdown-hours"></div>
+										<span>Hours</span>
+									</div>
+								</li>
+								<li class="minute">
+									<div class="text">
+										<div id="countdown-minutes"></div>
+										<span>Minutes</span>
+									</div>
+								</li>
+								<li class="second">
+									<div class="text">
+										<div id="countdown-seconds"></div>
+										<span>Seconds</span>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</section>
 				
@@ -162,7 +185,7 @@
 						</div>
 					</section>
 
-				<!--Section-->
+							<!--Section-->
 					<section id="schedule" class="wrapper style1">
 						<div class="inner">
 							<header class="major special">
@@ -173,35 +196,36 @@
 									<colgroup>
 										<col span="1" class="time">
 										<col span="1" class="session">
+										<col span="1" class="location">
 									</colgroup>
-									<!-- <thead>
+									 <thead>
 										<tr>
 											<th>Time</th>
 											<th>Session</th>
 										</tr>
-									</thead> -->
+									</thead>
 									<tbody>
 										<tr>
-											<td><i class="fa-regular fa-clock"></i>  10:15am - 10:30am<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td><i class="fa-regular fa-clock"></i>  10:15am - 10:30am <br> <i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
 											<td><strong>Opening Remarks - Prof. Jordan L. Peccia</strong>
-												<br>Thomas E. Golden Professor of Engineering &amp;
+												<br>Thomas E. Golden Professor of Engineering and <br>
 												Chemical &amp; Environmental Engineering
 												Department Chair</td>
 										</tr>
 										<tr>
-											<td><i class="fa-regular fa-clock"></i>  10:30am - 11:30am<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td><i class="fa-regular fa-clock"></i>  10:30am - 11:30am <br> <i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
 											<td><strong>Morning Keynote - Prof. Kathleen J. Stebe</strong>
-											<br>Richer and Elizabeth Goodwin Professor,
+											<br>Richer and Elizabeth Goodwin Professor,<br>
 											Department of Chemical and Biomolecular
-											Engineering, University of Pennsylvania
+											Engineering, <br>University of Pennsylvania
 											</td>
 										</tr>
 										<tr>
-											<td><i class="fa-regular fa-clock"></i> 11:30am - 12:30pm<br><i class="fa-solid fa-location-dot"></i>  Dining Room, Greenberg Conference Center</td>
+											<td><i class="fa-regular fa-clock"></i> 11:30am - 12:30pm <br> <i class="fa-solid fa-location-dot"></i>  Dining Room, Greenberg Conference Center</td>
 											<td><h4 class="linner">Lunch</h4></td>
 										</tr>
 										<tr>
-											<td><i class="fa-regular fa-clock"></i>  12:30pm - 1:55pm<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td><i class="fa-regular fa-clock"></i>  12:30pm - 1:55pm <br> <i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
 											<td>Graduate Student Speakers - Session 1</td>
 										</tr>
 										<tr>
@@ -209,13 +233,13 @@
 											<td><em>Ventilation Break</em></td>
 										</tr>
 										<tr>
-											<td><i class="fa-regular fa-clock"></i>  2:10pm - 3:10pm<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td><i class="fa-regular fa-clock"></i>  2:10pm - 3:10pm <br> <i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
 											<td><strong>Afternoon Keynote - Dr Mary Evelyn Tucker</strong>
 											<br>Co-Director, Forum on Religion and Ecology, Yale University
 											</td>
 										</tr>
 										<tr>
-											<td><i class="fa-regular fa-clock"></i>  3:10pm - 4:35pm<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td><i class="fa-regular fa-clock"></i>  3:10pm - 4:35pm <br> <i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
 											<td>Graduate Student Speakers - Session 2</td>
 										</tr>
 										<tr>
@@ -223,11 +247,11 @@
 											<td><em>Ventilation Break</em></td>
 										</tr>
 										<tr>
-											<td><i class="fa-regular fa-clock"></i>  4:50pm - 5:20pm<br><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+											<td><i class="fa-regular fa-clock"></i>  4:50pm - 5:20pm <br> <i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
 											<td>Awards &amp; Closing Remarks</td>
 										</tr>
 										<tr>
-											<td><i class="fa-regular fa-clock"></i> 6:00pm - 8:30pm<br><i class="fa-solid fa-location-dot"></i>  Presidential Room, Schwarzman Center</td>
+											<td><i class="fa-regular fa-clock"></i> 6:00pm - 8:30pm <br> <i class="fa-solid fa-location-dot"></i>  Presidential Room, Schwarzman Center</td>
 											<td><h4 class="linner">Banquet</h4></td>
 										</tr>
 									</tbody>
@@ -235,6 +259,92 @@
 							</div>
 						</div>
 					</section>
+
+				<!--Section-->
+					<!-- <section id="schedule" class="wrapper style1">
+						<div class="inner">
+							<header class="major special">
+								<h2>Schedule</h2>
+							</header>
+							<div class="table-wrapper">
+								<table>
+									<colgroup>
+										<col span="1" class="time">
+										<col span="1" class="session">
+										<col span="1" class="location">
+									</colgroup>
+									 <thead>
+										<tr>
+											<th>Time</th>
+											<th>Session</th>
+										</tr>
+									</thead> -->
+									<!--<tbody>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  10:15am - 10:30am</td>
+											<td><strong>Opening Remarks - Prof. Jordan L. Peccia</strong>
+												<br>Thomas E. Golden Professor of Engineering and <br>
+												Chemical &amp; Environmental Engineering
+												Department Chair</td>
+											<td><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  10:30am - 11:30am</td>
+											<td><strong>Morning Keynote - Prof. Kathleen J. Stebe</strong>
+											<br>Richer and Elizabeth Goodwin Professor,<br>
+											Department of Chemical and Biomolecular
+											Engineering, <br>University of Pennsylvania
+											</td>
+											<td><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i> 11:30am - 12:30pm </td>
+											<td><h4 class="linner">Lunch</h4></td>
+											<td><i class="fa-solid fa-location-dot"></i>  Dining Room, Greenberg Conference Center</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  12:30pm - 1:55pm </td>
+											<td>Graduate Student Speakers - Session 1</td>
+											<td><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i> 1:55pm - 2:10pm</td>
+											<td><em>Ventilation Break</em></td>
+											 <td>" "</td> -->
+										<!--</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  2:10pm - 3:10pm </td>
+											<td><strong>Afternoon Keynote - Dr Mary Evelyn Tucker</strong>
+											<br>Co-Director, Forum on Religion and Ecology, Yale University
+											</td>
+											<td><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  3:10pm - 4:35pm </td>
+											<td>Graduate Student Speakers - Session 2</td>
+											<td><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i> 4:35pm - 4:50pm</td>
+											<td><em>Ventilation Break</em></td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i>  4:50pm - 5:20pm </td>
+											<td>Awards &amp; Closing Remarks</td>
+											<td><i class="fa-solid fa-location-dot"></i>  Ampitheatre, Greenberg Conference Center</td>
+										</tr>
+										<tr>
+											<td><i class="fa-regular fa-clock"></i> 6:00pm - 8:30pm </td>
+											<td><h4 class="linner">Banquet</h4></td>
+											<td><i class="fa-solid fa-location-dot"></i>  Presidential Room, Schwarzman Center</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</section> -->
+
+					
 
 				<!-- Section -->
 				<section class="wrapper style2 alt" id="students">
@@ -345,7 +455,7 @@
 							</header>
 							<ul class="icons">
 								<li><a href="mailto:rostacia.lewis@yale.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.linkedin.com/in/rostacia-lewis" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 						</div>
 						<div class="profile">
