@@ -4374,13 +4374,15 @@ input, select, textarea {
 			padding: 0px 0;
 			height: 5rem;
 			width: 5rem;
+			border: 0;
 	
 		}
 		}
 
 	#countdown-days, #countdown-minutes, #countdown-seconds, #countdown-hours {
 		font: inherit;
-		font-size: 1.5rem;
+		font-size: 1.75rem;
+		font-weight: 400;
 	}
 
 	.profiles {
@@ -4483,6 +4485,9 @@ input, select, textarea {
 
 	}
 
+	.inner > h5{
+		margin: 41px 0 1.5rem 0;
+	}
 
 
 
