@@ -399,7 +399,8 @@ input, select, textarea {
 
 	header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
 		background-color: #4797ec;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #f4a261 90%);
+		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #dddddd 90%);
+		/* background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #f4a261 90%); */
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 	}
@@ -2762,7 +2763,8 @@ input, select, textarea {
 	.fa-clock, .fa-location-dot{
 		/* color: #fd4c66; */
 		/* Set the background color */
-		background: linear-gradient(to right, #4797ec 0%, #f4a261 100%);
+		background: linear-gradient(to right, #4797ec 0%, #dddddd 100%);
+		/* background: linear-gradient(to right, #4797ec 0%, #f4a261 100%); */
 		/* Mask the color to the text, and remove the rest  */
 		-webkit-background-clip: text;
 	   /* Make the text fill color value transparent so the masked background color comes through */
@@ -3717,7 +3719,8 @@ input, select, textarea {
 		background-color: #3a3a3a;
 		color: #ffffff;
 		background-color: #4797ec;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #f4a261 90%);
+		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #dddddd 90%);
+		/* background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #f4a261 90%); */
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-align-items: center;
@@ -3813,7 +3816,8 @@ input, select, textarea {
 
 			#header.alt:before {
 				background-color: #4797ec;
-				background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #f4a261 90%);
+				background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #dddddd 90%);
+				/* background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #f4a261 90%); */
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				content: '';
