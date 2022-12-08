@@ -4488,5 +4488,8 @@ input, select, textarea {
 		margin: 41px 0 1.5rem 0;
 	}
 
-
-
+	@media screen and (min-width: 1213px){
+	.davidSpace{
+		margin-bottom: 7rem;
+	}
+	}
